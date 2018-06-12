@@ -1,0 +1,35 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon dev/node.js 3000",
+    "dev-network": "nodemon dev/node-spawner.js",
+    "lint": "eslint --ext .js --ignore-path ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.12.0",
+    "node-notifier": "^5.2.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-spinners": "^1.3.1",
+    "fastify": "^1.5.0",
+    "http-errors": "^1.6.3",
+    "inquirer": "^6.0.0",
+    "joi": "^13.3.0",
+    "nodemon": "^1.17.5",
+    "ora": "^2.1.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.2.1"
+  }
+}
